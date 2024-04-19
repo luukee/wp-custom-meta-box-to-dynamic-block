@@ -1,11 +1,13 @@
 <?php
 /**
  * Plugin Name:       Artillery Meta
- * Description:       Example block scaffolded with Create Block tool.
+ * Plugin URI:        https://github.com/luukee/wp-custom-meta-box-to-dynamic-block
+ * Description:       Displays the Artillery Link from a post.
  * Requires at least: 6.1
  * Requires PHP:      7.0
  * Version:           0.1.0
- * Author:            The WordPress Contributors
+ * Author:            Luke Carl Hartman
+ * Author URI:        https://lukecarlhartman.com/
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       artillery-meta
