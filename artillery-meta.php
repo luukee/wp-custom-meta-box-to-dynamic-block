@@ -13,6 +13,9 @@
  * @package CreateBlock
  */
 
+//  Plugin created with the help of "Creating a custom block that stores post meta" article: 
+// https://developer.wordpress.org/news/2023/03/03/creating-a-custom-block-that-stores-post-meta/
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
