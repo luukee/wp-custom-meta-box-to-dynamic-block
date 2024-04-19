@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/artillery-meta",
+	"version": "0.1.0",
+	"title": "Artillery Link",
+	"category": "widgets",
+	"icon": "admin-links",
+	"description": "Displays the Artillery Link from a post.",
+	"attributes": {
+		"linkURL": {
+			"type": "string"
+		}
+	},
+	"example": {
+		"attributes": {
+			"linkURL": "www.google.com"
+		}
+	},
+	"supports": {
+		"html": false,
+		"multiple": false
+	},
+	"usesContext": [ "postId", "postType" ],
+	"textdomain": "artillery-meta",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
